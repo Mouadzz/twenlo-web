@@ -1,7 +1,11 @@
+import Navbar from '@/components/Navbar'
+import HeroSection from '@/components/HeroSection'
+
 export default function Home() {
   return (
-    <main>
-      <h1>Welcome</h1>
-    </main>
-  );
+    <div className="min-h-screen bg-slate-900 text-white">
+      <Navbar />
+      <HeroSection />
+    </div>
+  )
 }
