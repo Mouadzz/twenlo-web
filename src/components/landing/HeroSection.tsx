@@ -1,15 +1,15 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import AnimatedHeader from './AnimatedHeader'
+import AnimatedHeadline from './AnimatedHeadline'
 
 export default function HeroSection() {
     return (
-        <section className="bg-background min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+        <section className="bg-background pt-50 pb-24 px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto text-center">
-                <h1 className="text-2xl md:text-5xl font-bold mb-8 leading-tight">
-                    <AnimatedHeader />
+                <h1 className="text-2xl sm:text-4xl  md:text-5xl font-bold mb-8">
+                    <AnimatedHeadline />
                 </h1>
-                <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
+                <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
                     Stop guessing what people want. Our platform helps you discover profitable markets, analyze them with real traffic metrics, and generate startup ideas from real customer pain points across online communities.
                 </p>
                 <div className="flex flex-col gap-4 justify-center items-center">

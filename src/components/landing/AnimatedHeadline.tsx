@@ -2,13 +2,13 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
-export default function AnimatedHeader() {
+export default function AnimatedHeadline() {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const headlines = [
         {
             text: "Find Your",
-            highlight: "$1 Million Idea",
+            highlight: "Perfect Startup Idea",
             secondLine: "Using AI & Real Market Demand"
         },
         {
@@ -40,12 +40,11 @@ export default function AnimatedHeader() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
-                className="flex flex-col items-center"
+                className="text-center leading-9 sm:leading-12 md:leading-16"
             >
-                <span className="block mb-2 text-foreground">
-                    {current.text} <span className="text-emerald-500">{current.highlight}</span>
-                </span>
-                <span className="block text-foreground">{current.secondLine}</span>
+                {current.text} <span className="text-emerald-500">{current.highlight}</span>
+                <br />
+                {current.secondLine}
             </motion.div>
         </AnimatePresence>
     )

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Montserrat } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Twenlo - Find Your Million-Dollar Startup Opportunity",
-  description: "Stop guessing what customers want. Our platform helps you discover profitable markets and generate startup ideas from real customer pain points across online communities.",
+  title: "Twenlo - Discover Profitable Business Ideas from Real Market Demand",
+  description: "Stop guessing what customers want. Discover profitable markets, analyze traffic metrics, and generate startup ideas from real customer pain points across online communities. Start your free trial today.",
 };
 
-const montserrat = Montserrat({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
