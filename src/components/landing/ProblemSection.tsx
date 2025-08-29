@@ -14,17 +14,17 @@ export default function ProblemSection() {
                 </p>
                 <div className="grid md:grid-cols-3 gap-8 mt-12">
                     <div className="bg-muted/30 p-6 rounded-lg">
-                        <TrendingUp className="h-12 w-12 text-red-500 mb-4 mx-auto" />
+                        <TrendingUp className="h-11 w-11 text-red-500 mb-4 mx-auto" />
                         <h3 className="text-base sm:text-lg font-semibold mb-2">No Market Need</h3>
                         <p className="text-sm sm:text-base text-muted-foreground">70% fail by skipping proper market validation before building</p>
                     </div>
                     <div className="bg-muted/30 p-6 rounded-lg">
-                        <Users className="h-12 w-12 text-orange-400 mb-4 mx-auto" />
+                        <Users className="h-11 w-11 text-orange-400 mb-4 mx-auto" />
                         <h3 className="text-base sm:text-lg font-semibold mb-2">Poor Customer Research</h3>
                         <p className="text-sm sm:text-base text-muted-foreground">Most founders assume they know what customers want without asking</p>
                     </div>
                     <div className="bg-muted/30 p-6 rounded-lg">
-                        <Target className="h-12 w-12 text-primary mb-4 mx-auto" />
+                        <Target className="h-11 w-11 text-primary mb-4 mx-auto" />
                         <h3 className="text-base sm:text-lg font-semibold mb-2">Twenlo's Solution</h3>
                         <p className="text-sm sm:text-base text-muted-foreground">Find real problems being discussed by real people right now</p>
                     </div>
