@@ -25,22 +25,25 @@ export default function PricingSection() {
                         <ul className="space-y-3 mb-6 flex-grow">
                             <li className="flex items-center">
                                 <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                <span className="text-sm">30 market explorations</span>
+                                <span className="text-sm">Expand through 30 markets</span>
                             </li>
                             <li className="flex items-center">
                                 <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                <span className="text-sm">15 startup idea generations</span>
+                                <span className="text-sm">Generate up to 15 startup ideas</span>
                             </li>
                             <li className="flex items-center">
                                 <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                <span className="text-sm">Batch of 5 ideas per generation</span>
+                                <span className="text-sm">5 ideas at a time</span>
+                            </li>
+                            <li className="flex items-center">
+                                <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
+                                <span className="text-sm">Email support</span>
                             </li>
                         </ul>
 
                         <div className="bg-muted/20 border border-border/30 rounded-lg p-4 mb-6">
                             <p className="text-sm text-muted-foreground leading-relaxed">
-                                Try before you buy with free credits. Get the full experience: discover markets with detailed metrics and generate ideas. Your free credits never expire.
-                            </p>
+                                Try before you buy and get <strong>all features</strong>. Discover markets with detailed metrics and generate ideas. Your free credits never expire.                            </p>
                         </div>
 
                         <button className="w-full bg-muted hover:bg-muted/80 text-foreground py-3 rounded-lg font-medium transition-all duration-200 border border-border/50 mt-auto cursor-pointer">
@@ -68,27 +71,31 @@ export default function PricingSection() {
                             <ul className="space-y-3 mb-8 flex-grow">
                                 <li className="flex items-center">
                                     <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                    <span className="text-sm">1,500 market explorations</span>
+                                    <span className="text-sm">Expand through 1,500 markets</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                    <span className="text-sm">750 startup idea generations</span>
+                                    <span className="text-sm">Generate up to 750 startup ideas</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                    <span className="text-sm">Batch sizes (5-10-15)</span>
+                                    <span className="text-sm">5, 10, or 15 ideas at a time</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                    <span className="text-sm">Market metrics (competition, volume, potential)</span>
+                                    <span className="text-sm">Market metrics: competition rate, volume & potential</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                    <span className="text-sm">12 month volume graph</span>
+                                    <span className="text-sm">12-month traffic graph</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
-                                    <span className="text-sm">Real user quotes that support ideas</span>
+                                    <span className="text-sm">Original user quotes behind each idea</span>
+                                </li>
+                                <li className="flex items-center">
+                                    <Check className="h-4 w-4 text-emerald-500 mr-3 flex-shrink-0" />
+                                    <span className="text-sm">Priority email support</span>
                                 </li>
                             </ul>
 
