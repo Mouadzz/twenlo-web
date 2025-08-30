@@ -33,7 +33,7 @@ export default function FeaturesSection() {
     ]
 
     return (
-        <section className="py-24 px-4 sm:px-6 lg:px-8 relative bg-section">
+        <section className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 relative">
             <div className="max-w-7xl mx-auto relative">
                 <div className="text-center mb-16">
                     <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
@@ -57,13 +57,13 @@ export default function FeaturesSection() {
                             )}
 
                             {/* Feature Card */}
-                            <div className="bg-muted/30 backdrop-blur-sm border border-border/50 rounded-2xl p-8 relative overflow-hidden group hover:border-primary/30 transition-all duration-300 h-full">
+                            <div className="bg-muted/25 backdrop-blur-sm border border-border/50 rounded-2xl p-8 relative overflow-hidden group hover:border-primary/30 transition-all duration-300 h-full">
                                 <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
                                 <div className="relative z-10">
                                     <div className="p-3 rounded-xl bg-primary/10 border border-primary/20 mb-6 w-fit">
                                         {React.createElement(feature.icon, { className: "h-8 w-8 text-primary" })}
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
+                                    <h3 className="text-lg sm:text-2xl font-bold mb-4">{feature.title}</h3>
                                     <p className="text-muted-foreground leading-relaxed">
                                         {feature.description}
                                     </p>

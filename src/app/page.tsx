@@ -12,12 +12,12 @@ export default function Home() {
     <div>
       <Navbar />
       <HeroSection />
-      <FeaturesSection />
       <ProblemSection />
-      <StatsSection />
-      <PricingSection />
-      <FAQSection />
-      <Footer />
+      <FeaturesSection />
+      {/* <StatsSection /> */}
+      {/* <PricingSection /> */}
+      {/* <FAQSection /> */}
+      {/* <Footer /> */}
     </div>
   )
 }

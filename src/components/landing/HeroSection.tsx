@@ -4,9 +4,9 @@ import AnimatedHeadline from './AnimatedHeadline'
 
 export default function HeroSection() {
     return (
-        <section className="bg-background pt-50 pb-24 px-4 sm:px-6 lg:px-8">
+        <section className="bg-background pt-50 pb-26 px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto text-center">
-                <h1 className="text-2xl sm:text-4xl  md:text-5xl font-bold mb-8">
+                <h1 className="text-3xl sm:text-4xl  md:text-5xl font-bold mb-8">
                     <AnimatedHeadline />
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">

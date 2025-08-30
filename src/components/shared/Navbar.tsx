@@ -55,8 +55,8 @@ export default function Navbar() {
 
             {/* Mobile Navigation Overlay */}
             {mobileMenuOpen && (
-                <div className="sm:hidden fixed inset-0 top-[73px] bg-background/95 backdrop-blur-xl z-40">
-                    <div className="bg-muted/30 backdrop-blur-sm border border-border/50 m-4 rounded-2xl p-8 space-y-6">
+                <div className="sm:hidden fixed inset-0 pt-20 bg-background/60 backdrop-blur-xl z-40">
+                    <div className="bg-muted/30 backdrop-blur-sm border border-border/50 m-4 rounded-2xl p-6 space-y-6">
                         <Link
                             href="/signin"
                             className="block w-full text-left text-muted-foreground hover:text-foreground px-6 py-4 rounded-xl transition-all duration-200 hover:bg-muted/50 border border-transparent hover:border-primary/30"

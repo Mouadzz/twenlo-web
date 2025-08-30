@@ -43,7 +43,10 @@ export default function AnimatedHeadline() {
                 className="text-center leading-9 sm:leading-12 md:leading-16"
             >
                 {current.text} <span className="text-emerald-500">{current.highlight}</span>
-                <br />
+                {/* Hide break on mobile, show on sm and up */}
+                <br className="hidden sm:block" />
+                {/* Add space on mobile instead of line break */}
+                <span className="sm:hidden"> </span>
                 {current.secondLine}
             </motion.div>
         </AnimatePresence>
