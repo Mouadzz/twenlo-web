@@ -5,8 +5,8 @@ import { Activity } from 'lucide-react'
 
 export default function StatsSection() {
     return (
-        <section className="py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-            <div className="max-w-4xl mx-auto relative">
+        <section className="py-16 px-4 sm:px-6 relative overflow-hidden">
+            <div className="pb-14 max-w-4xl mx-auto relative">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center justify-center gap-3">
                         <Activity className="h-8 w-8 text-emerald-500 animate-pulse" />

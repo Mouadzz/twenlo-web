@@ -15,7 +15,7 @@ export default function Home() {
       <ProblemSection />
       <FeaturesSection />
       <StatsSection />
-      {/* <PricingSection /> */}
+      <PricingSection />
       {/* <FAQSection /> */}
       {/* <Footer /> */}
     </div>
