@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <ProblemSection />
       <FeaturesSection />
-      {/* <StatsSection /> */}
+      <StatsSection />
       {/* <PricingSection /> */}
       {/* <FAQSection /> */}
       {/* <Footer /> */}
